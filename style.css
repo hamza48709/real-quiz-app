@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+    
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .quizcontainer{
+    background-color: cadetblue;
+    width: 80vw;
+    min-height: 60vh;
+    padding: 2rem;
+}
+.container li,input{
+    margin-top: 20px;
+    list-style: none;
+}
+.submitbutton {
+    display: flex;
+    justify-content: center;
+}
+.submitbutton .Submit{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 3rem;
+    background-color: chocolate;
+    
+}
+.scorecontainer{
+    display: none;
+}
+
+.score{
+    background-color: aqua;
+    padding: 20px;
+    margin-top:  2rem;
+}
+.startbutton{
+    position: absolute;
+    top:50%;
+    left: 35%;
+    padding: 20px;
+    border-radius: 2rem;
+    background-color: burlywood;
+    box-shadow: 2px 2px 2px black;
+    
+}
